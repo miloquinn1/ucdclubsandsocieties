@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UCD Clubs &amp; Societies</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="nav">
+    <div class="nav__inner">
+      <a href="#home" class="nav__logo">
+        <span class="nav__badge">UCD</span>
+        <span>Clubs &amp; Societies</span>
+      </a>
+      <nav aria-label="Primary">
+        <a href="#home" class="nav__link">Home</a>
+        <a href="#clubs" class="nav__link">Clubs</a>
+        <a href="#contact" class="nav__link">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <section class="hero" id="home">
+      <div class="hero__text">
+        <p class="hero__eyebrow">University College Dublin</p>
+        <h1 class="hero__heading">
+          Find your<br><em>people.</em>
+        </h1>
+        <p class="hero__sub">100+ clubs and societies. From hackathons to theatre, hiking to hip-hop &mdash; whatever you&rsquo;re into, there&rsquo;s a place for you at UCD.</p>
+        <div class="hero__actions">
+          <a href="#clubs" class="btn btn--primary">Browse clubs</a>
+          <a href="#contact" class="btn btn--ghost">Get involved &rarr;</a>
+        </div>
+      </div>
+      <div class="hero__pills" aria-hidden="true">
+        <div class="pill">🎬 Film</div>
+        <div class="pill">⚽ Sport</div>
+        <div class="pill">💻 Tech</div>
+        <div class="pill">🏉 Rugby</div>
+        <div class="pill">🎨 Arts</div>
+        <div class="pill">🏔 Hiking</div>
+        <div class="pill">🎵 Music</div>
+        <div class="pill">🌍 Culture</div>
+        <div class="pill">📸 Photography</div>
+        <div class="pill">♟ Chess</div>
+      </div>
+    </section>
+
+    <section class="why" aria-label="Why join a society">
+      <div class="why__inner">
+        <div class="why__item">
+          <span class="why__num">01</span>
+          <strong>Meet new people</strong>
+          <p>Build real friendships outside the lecture hall from day one.</p>
+        </div>
+        <div class="why__item">
+          <span class="why__num">02</span>
+          <strong>Build real skills</strong>
+          <p>Leadership, creativity, collaboration &mdash; things CVs love.</p>
+        </div>
+        <div class="why__item">
+          <span class="why__num">03</span>
+          <strong>Have a blast</strong>
+          <p>Trips, showcases, competitions, socials. Uni is short &mdash; enjoy it.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="clubs" id="clubs">
+      <div class="clubs__inner">
+        <header class="section-head">
+          <h2>Featured clubs</h2>
+          <p>Expand any card to see upcoming events and how to join.</p>
+        </header>
+
+        <article class="card">
+          <div class="card__top">
+            <div class="card__icon">🎬</div>
+            <div class="card__meta">
+              <h3>UCD Film Society</h3>
+              <span class="badge badge--arts">Arts &amp; Culture</span>
+            </div>
+          </div>
+          <p class="card__blurb">Ireland&rsquo;s largest student film society. Weekly screenings, director Q&amp;As, and a student short-film festival every spring. No film knowledge needed.</p>
+          <details class="card__details">
+            <summary>Upcoming events <span class="chevron" aria-hidden="true">&#9662;</span></summary>
+            <ul class="events">
+              <li class="event">
+                <span class="event__dot"></span>
+                <div>
+                  <p class="event__title">Weekly Screening &mdash; <em>Parasite</em></p>
+                  <p class="event__meta">📅 Wed 9 April, 7:00 PM &nbsp;&middot;&nbsp; 📍 UCD Cinema</p>
+                </div>
+              </li>
+              <li class="event">
+                <span class="event__dot"></span>
+                <div>
+                  <p class="event__title">Camera Basics Workshop</p>
+                  <p class="event__meta">📅 Sat 12 April, 2:00 PM &nbsp;&middot;&nbsp; 📍 UCD Student Centre</p>
+                </div>
+              </li>
+            </ul>
+            <a href="#contact" class="btn btn--outline btn--sm">Join the society &rarr;</a>
+          </details>
+        </article>
+
+        <article class="card">
+          <div class="card__top">
+            <div class="card__icon">💻</div>
+            <div class="card__meta">
+              <h3>UCD Coding Society</h3>
+              <span class="badge badge--tech">Technology</span>
+            </div>
+          </div>
+          <p class="card__blurb">Whether you&rsquo;re writing your first &ldquo;Hello World&rdquo; or shipping side projects &mdash; hackathons, study sessions and industry speaker nights every term.</p>
+          <details class="card__details">
+            <summary>Upcoming events <span class="chevron" aria-hidden="true">&#9662;</span></summary>
+            <ul class="events">
+              <li class="event">
+                <span class="event__dot"></span>
+                <div>
+                  <p class="event__title">Beginner Hackathon &mdash; Build in 24 hrs</p>
+                  <p class="event__meta">📅 Fri 11 April, 5:00 PM &nbsp;&middot;&nbsp; 📍Quinn School Q043 </p>
+                </div>
+              </li>
+              <li class="event">
+                <span class="event__dot"></span>
+                <div>
+                  <p class="event__title">Industry Talk: Careers in Tech with Stripe</p>
+                  <p class="event__meta">📅 Tue 15 April, 6:30 PM &nbsp;&middot;&nbsp; 📍 Quinn School QUI-005</p>
+                </div>
+              </li>
+            </ul>
+            <a href="#contact" class="btn btn--outline btn--sm">Join the society &rarr;</a>
+          </details>
+        </article>
+
+        <article class="card">
+          <div class="card__top">
+            <div class="card__icon">🏉</div>
+            <div class="card__meta">
+              <h3>UCD U20s Rugby</h3>
+              <span class="badge badge--sport">Sport</span>
+            </div>
+          </div>
+          <p class="card__blurb">Competitive rugby for players aged 20 and under. Train twice a week, compete in the Leinster U20 League, and be part of one of UCD&rsquo;s most exciting squads. All skill levels welcome at trials.</p>
+          <details class="card__details">
+            <summary>Upcoming events <span class="chevron" aria-hidden="true">&#9662;</span></summary>
+            <ul class="events">
+              <li class="event">
+                <span class="event__dot"></span>
+                <div>
+                  <p class="event__title">Pre-season Trials &mdash; Open to All U20s</p>
+                  <p class="event__meta">📅 Sat 12 April, 10:00 AM &nbsp;&middot;&nbsp; 📍 UCD Bowl, Belfield</p>
+                </div>
+              </li>
+              <li class="event">
+                <span class="event__dot"></span>
+                <div>
+                  <p class="event__title">Leinster League &mdash; UCD vs DUFC</p>
+                  <p class="event__meta">📅 Wed 16 April, 2:00 PM &nbsp;&middot;&nbsp; 📍 UCD Bowl, Belfield</p>
+                </div>
+              </li>
+            </ul>
+            <a href="#contact" class="btn btn--outline btn--sm">Join the squad &rarr;</a>
+          </details>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="quotes" aria-label="Student testimonials">
+      <div class="quotes__inner">
+        <h2>What students say</h2>
+        <div class="quotes__grid">
+          <blockquote class="quote">
+            <p>&ldquo;Joining Film Soc in first year was one of the best decisions I made at UCD. Instant community.&rdquo;</p>
+            <footer>Ciara &mdash; 3rd Year Arts</footer>
+          </blockquote>
+          <blockquote class="quote">
+            <p>&ldquo;The hackathon gave me confidence to apply for my internship. I&rsquo;d never have tried without Coding Society pushing me.&rdquo;</p>
+            <footer>R&oacute;n&aacute;n &mdash; 2nd Year Computer Science</footer>
+          </blockquote>
+          <blockquote class="quote">
+            <p>&ldquo;I played a bit of rugby in school but never thought I&rsquo;d make a college team. UCD U20s gave me a shot and I haven&rsquo;t looked back.&rdquo;</p>
+            <footer>Ciar&aacute;n &mdash; 2nd Year Engineering</footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="contact__inner">
+        <div class="contact__text">
+          <h2>Ready to join?</h2>
+          <p>New members are always welcome. Visit the full UCD clubs listing, or drop into the Student Centre during the Clubs &amp; Societies Fair at the start of each semester.</p>
+          <p class="contact__details">
+            &#9993; <a href="/cdn-cgi/l/email-protection#4e3d212d272b3a272b3d0e3b2d2a60272b"><span class="__cf_email__" data-cfemail="41322e22282435282432013422256f2824">[email&#160;protected]</span></a><br>
+            &#127963; Student Centre, UCD Belfield, Dublin 4
+          </p>
+        </div>
+        <a href="https://www.ucd.ie/studentadvisers/studentsupport/clubsandsocieties/"
+           class="btn btn--primary btn--lg"
+           target="_blank"
+           rel="noopener noreferrer">View all UCD clubs &#8599;</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <p><span class="nav__badge">UCD</span> Clubs &amp; Societies</p>
+      <p class="footer__note">A student-made guide. Not an official UCD publication.</p>
+      <nav aria-label="Footer navigation">
+        <a href="#home">Home</a
