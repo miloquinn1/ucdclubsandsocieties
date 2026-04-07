@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Join &amp; Contact &mdash; UCD Clubs &amp; Societies</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">
+        <span class="nav__badge">UCD</span>
+        <span>Clubs &amp; Societies</span>
+      </a>
+      <nav class="nav__links" aria-label="Primary">
+        <a href="index.html"   class="nav__link">Home</a>
+        <a href="clubs.html"   class="nav__link">Clubs</a>
+        <a href="events.html"  class="nav__link">Events</a>
+        <a href="contact.html" class="nav__link nav__link--active">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <div class="page-hero">
+      <div class="page-hero__inner">
+        <span class="page-hero__eyebrow">Get involved</span>
+        <h1 class="page-hero__title">Join &amp; Contact</h1>
+        <p class="page-hero__sub">Interested in a society? Fill in the form below and we&rsquo;ll pass your details on. Or just show up &mdash; most events are open to everyone.</p>
+      </div>
+    </div>
+
+    <!-- FORM + INFO -->
+    <section class="section section--alt">
+      <div class="section__inner">
+        <div class="contact-grid">
+
+          <!-- LEFT: info + FAQ -->
+          <div>
+            <h2 class="contact-info__heading">Contact information</h2>
+            <ul class="contact-info__list">
+              <li>&#9993; <a href="mailto:societies@ucd.ie">societies@ucd.ie</a></li>
+              <li>&#127963; Student Centre, UCD Belfield, Dublin 4</li>
+              <li>&#128337; Office open Mon&ndash;Fri, 10:00 AM &ndash; 4:00 PM</li>
+              <li>&#127760; <a href="https://www.ucd.ie/studentadvisers/studentsupport/clubsandsocieties/" target="_blank" rel="noopener noreferrer">Full list on UCD.ie &#8599;</a></li>
+            </ul>
+
+            <h2 class="contact-info__heading">Frequently asked questions</h2>
+            <div class="faq">
+
+              <details class="faq__item">
+                <summary>When can I join? <span class="chevron" aria-hidden="true">&#9662;</span></summary>
+                <div class="faq__body">The main sign-up period is during the Clubs &amp; Societies Fair at the start of each semester &mdash; usually the second week of term. However, most societies accept new members year-round. Just contact them directly or show up to an event.</div>
+              </details>
+
+              <details class="faq__item">
+                <summary>I have no experience &mdash; can I still join? <span class="chevron" aria-hidden="true">&#9662;</span></summary>
+                <div class="faq__body">Absolutely. All three featured clubs explicitly welcome beginners. The Film Society runs workshop nights for people who&rsquo;ve never held a camera. The Coding Society has beginner-friendly study sessions. The Rugby team holds open trials for all ability levels.</div>
+              </details>
+
+              <details class="faq__item">
+                <summary>How much time does it take up each week? <span class="chevron" aria-hidden="true">&#9662;</span></summary>
+                <div class="faq__body">It varies by club. Film Soc and Coding Soc typically run one evening event per week. Rugby training is twice weekly plus match days. You can always come along occasionally without committing to everything &mdash; most events are drop-in.</div>
+              </details>
+
+              <details class="faq__item">
+                <summary>Can international students join? <span class="chevron" aria-hidden="true">&#9662;</span></summary>
+                <div class="faq__body">Yes &mdash; all registered UCD students are eligible to join any club or society regardless of nationality or programme. Clubs are a great way to meet people if you&rsquo;re new to Dublin.</div>
+              </details>
+
+            </div>
+          </div>
+
+          <!-- RIGHT: join form -->
+          <div class="form" aria-label="Express interest form">
+            <h2 class="form__heading">Express interest</h2>
+
+            <div class="form__group">
+              <label class="form__label" for="name">Full name</label>
+              <input class="form__input" type="text" id="name" name="name" placeholder="e.g. Aoife Murphy" autocomplete="name" />
+            </div>
+
+            <div class="form__group">
+              <label class="form__label" for="email">UCD email address</label>
+              <input class="form__input" type="email" id="email" name="email" placeholder="yourname@ucdconnect.ie" autocomplete="email" />
+            </div>
+
+            <div class="form__group">
+              <label class="form__label" for="year">Year of study</label>
+              <select class="form__select" id="year" name="year">
+                <option value="" disabled selected>Select your year&hellip;</option>
+                <option>1st Year</option>
+                <option>2nd Year</option>
+                <option>3rd Year</option>
+                <option>4th Year</option>
+                <option>Postgraduate</option>
+              </select>
+            </div>
+
+            <div class="form__group">
+              <label class="form__label" for="society">Society interested in</label>
+              <select class="form__select" id="society" name="society">
+                <option value="" disabled selected>Select a society&hellip;</option>
+                <option>UCD Film Society</option>
+                <option>UCD Coding Society</option>
+                <option>UCD U20s Rugby</option>
+                <option>Other / Not sure yet</option>
+              </select>
+            </div>
+
+            <div class="form__group">
+              <label class="form__label" for="message">Anything else? (optional)</label>
+              <textarea class="form__textarea" id="message" name="message" placeholder="Any questions, experience, or just say hi&hellip;"></textarea>
+            </div>
+
+            <a href="#" class="btn btn--primary btn--full">Send expression of interest</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__brand"><span class="nav__badge">UCD</span> Clubs &amp; Societies</div>
+      <p class="footer__note">A student-made guide. Not an official UCD publication.</p>
+      <nav class="footer__nav" aria-label="Footer">
+        <a href="index.html">Home</a>
+        <a href="clubs.html">Clubs</a>
+        <a href="events.html">Events</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+</body>
+</html>
